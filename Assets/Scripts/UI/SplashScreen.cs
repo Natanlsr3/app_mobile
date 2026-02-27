@@ -9,7 +9,10 @@ namespace MVC.App.UI
     {
         public event Action OnSplashScreenFinished;
 
-        //Used by animation event
-        public void OnSplashScreenAnimFinished() { OnSplashScreenFinished?.Invoke(); }
+        //Function used by animation event
+        public void OnSplashScreenAnimFinished()
+        {
+            OnSplashScreenFinished?.Invoke();
+        }
     }
 }
